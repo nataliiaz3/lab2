@@ -1,0 +1,70 @@
+h2{
+	color:#FFFAFA;
+	background-color:#D2B48C;
+}
+h1#hhh{
+	font-style:italic;
+	text-align:center;
+}
+p.ppp{
+	text-transform:capitalize;	
+}
+.absolute_box {
+position: absolute;
+top: 30px;
+left: 80px;
+height: 50px;
+width: 100px;
+color:#FFFAFA;
+background:#8B4513;
+text-transform:uppercase;
+}
+.relative_box {
+position: relative;
+top: 90px;
+left: 160px;
+height: 110px;
+width: 90px;
+color:#FFFAFA;
+background:#D2691E;
+text-transform:uppercase;
+}
+.float_box{
+float: right;
+color:#FFFAFA;
+background: #A52A2A;
+border: 3px solid black;
+padding: 20px;
+width: 30%;
+}
+
+
+.horizontal-click [name="vkl"] { display: none; }
+.horizontal-click > :not(input):not(label) {
+  overflow: hidden;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #808080;
+  border-top-style: none;
+  transition: .5s;
+}
+.horizontal-click > label {
+  overflow: hidden;
+  display: block;
+  padding: .5em 1em;
+  background: blue;
+  color: white;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.horizontal-click > :checked + label + * {
+  overflow: auto;
+  height: 70px;
+}
+.horizontal-click > :checked + label {
+  background: green;
+  cursor: default;
+}
+
